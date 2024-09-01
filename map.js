@@ -23,7 +23,7 @@ L.imageOverlay('map.jpeg', imageBounds).addTo(map); // Replace with your image p
 // Adjust map bounds to match image bounds
 map.fitBounds(imageBounds);
 
-// Makes image/map snap when reaching border
+// Makes image/map snap when reaching border but it's annoying so I'll comment it out
 //map.setMaxBounds(imageBounds);
 
 var defaultIcon = new L.Icon({
@@ -213,13 +213,13 @@ function searchLocation(input) {
 // Handle "Enter" key press
 document.getElementById('search-input').addEventListener('keydown', function(event) {
     if (event.key === 'Enter') {
-        event.preventDefault(); // Prevent form submission if it's in a form
+        event.preventDefault(); // Prevent form submission if it's in a form, which it isn't :D
         var searchTerm = event.target.value;
         searchLocation(searchTerm);
     }
 });
 
-// Initialize autocomplete for search
+// Initialises autocomplete but isn't working, idk why x(
 new autoComplete({
     selector: '#search-input',
     minChars: 1,
