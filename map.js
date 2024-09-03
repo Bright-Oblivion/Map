@@ -61,6 +61,8 @@ var pointsOfInterest = [
 
     { name: "Claw Isle", coords: [760, 677], description: "is the island seat of House Celtigar in the crownlands. It lies a few hours sail north from Dragonstone. The people of Crackclaw Point refer to the island as Crab Isle.<br>"  + '<a href="https://awoiaf.westeros.org/index.php/Claw_Isle" target="_blank">Learn More</a>' },
 
+    { name: "Claw Isle", coords: [760, 677], description: "is the island seat of House Celtigar in the crownlands. It lies a few hours sail north from Dragonstone. The people of Crackclaw Point refer to the island as Crab Isle.<br>"  + '<a href="https://awoiaf.westeros.org/index.php/Claw_Isle" target="_blank">Learn More</a>' },
+
     { name: "Gulltown", coords: [833, 670], description: "is the major port city of the Vale of Arryn. It is located in a fine natural harbor[1] at the northern tip of the Bay of Crabs, southeast of the Eyrie and south of nearby Runestone. It is the largest settlement in the Vale, but is much smaller than King's Landing, Lannisport, and Oldtown..<br>"  + '<a href="https://awoiaf.westeros.org/index.php/Gulltown" target="_blank">Learn More</a>' },
 
     { name: "Runestone", coords: [840, 677], description: "Runestone is the seat of House Royce in the Vale of Arryn. It lies on a peninsula north of the Bay of Crabs, east of Redfort and south of Old Anchor. While Runestone is on the northern shore of the peninsula, the nearby city of Gulltown is on the southern shore .<br>"  + '<a href="https://awoiaf.westeros.org/index.php/Runestone" target="_blank">Learn More</a>' },
@@ -75,6 +77,10 @@ var pointsOfInterest = [
 
     { name: "Isle of Faces", coords: [737, 495], description: "The Isle of Faces is a sacred island in the middle of the lake called the Gods Eye, located in the southeastern riverlands. It is one of the few known locations of weirwoods in the south of Westeros, with most others having been cut down and burned.<br>"  + '<a href="https://awoiaf.westeros.org/index.php/Isle_of_Faces" target="_blank">Learn More</a>' },
     
+    { name: "Gods Eye", coords: [723, 499], description: "The Gods Eye, the largest lake of the Seven Kingdoms, is located south of the Trident and west of the kingsroad in the southern riverlands.<br>"  + '<a href="https://awoiaf.westeros.org/index.php/Gods_Eye" target="_blank">Learn More</a>' },
+
+    { name: "Gods Eye Town", coords: [711, 494], description: "is located on the southern shore of the great lake called the Gods Eye in the southern riverlands, where a river flows south. The town's name has not been published.<br>"  + '<a href="https://awoiaf.westeros.org/index.php/Gods_Eye_Town" target="_blank">Learn More</a>' },
+
     { name: "Harrenhal", coords: [765, 495], description: "the largest castle in the Seven Kingdoms, is the seat of House Whent in the riverlands, on the north shore of the Gods Eye. Since the burning of Harrenhal by dragonfire in Aegon's Conquest, however, the castle has become a dark and ruinous place. Harrenhal's holdings are some of the richest in Westeros, claiming vast tracts of green fertile land which reach as far as the hills of House Wode near the crownlands. Harrentown is found near the castle.<br>"  + '<a href="https://awoiaf.westeros.org/index.php/Harrenhal" target="_blank">Learn More</a>' },
 
     { name: "Stone Hedge", coords: [786, 440], description: "Stone Hedge, sometimes called the Stone Hedge, is the seat of House Bracken in the riverlands.<br>"  + '<a href="https://awoiaf.westeros.org/index.php/Stone_Hedge" target="_blank">Learn More</a>' },
@@ -89,7 +95,7 @@ var pointsOfInterest = [
 
     { name: "Wolfswood", coords: [1227, 375], description: " The wolfswood is a large forest in the north named for the great many wolves one can hear howling in the night.<br>"  + '<a href="https://awoiaf.westeros.org/index.php/Wolfswood" target="_blank">Learn More</a>' },
 
-    { name: "Torrhen's Square", coords: [1152, 380], description: " is a castle in the north and the seat of House Tallhart. It is south of the wolfswood, southwest of Winterfell, and north of Barrowton, on the northern shore of a large lake. A river from the lake leads south to the Saltspear.<br>"  + '<a href="https://awoiaf.westeros.org/index.php/Torrhen%27s_Square" target="_blank">Learn More</a>' },
+    { name: "Torrhen's Square", coords: [1152, 380], description: " is a castle in the north and the seat of House Tallhart. It is south of the wolfswood, southwest of Winterfell, and north of Barrowton, on the northern shore of a large lake. A river from the lake leads south to the Saltspear.<br>"  + '<a href="https://awoiaf.westeros.org/index.php/Torrhen27%s_Square" target="_blank">Learn More</a>' },
 
     { name: "Castle Cerwyn", coords: [1143, 427], description: "or simply Cerwyn, is the seat of House Cerwyn in the north. It is located by the western branch of the White Knife. Because of the closeness of their castles, the Cerwyns often visit the Starks, as they are only half a day's ride from Winterfell.<br>"  + '<a href="https://awoiaf.westeros.org/index.php/Castle_Cerwyn" target="_blank">Learn More</a>' },
 
