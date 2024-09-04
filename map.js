@@ -89,7 +89,9 @@ var pointsOfInterest = [
 
     { name: "Harrenhal", coords: [765, 495], description: "the largest castle in the Seven Kingdoms, is the seat of House Whent in the riverlands, on the north shore of the Gods Eye. Since the burning of Harrenhal by dragonfire in Aegon's Conquest, however, the castle has become a dark and ruinous place. Harrenhal's holdings are some of the richest in Westeros, claiming vast tracts of green fertile land which reach as far as the hills of House Wode near the crownlands. Harrentown is found near the castle.<br>"  + '<a href="https://awoiaf.westeros.org/index.php/Harrenhal" target="_blank">Learn More</a>' },
 
-    { name: "Stone Hedge", coords: [786, 440], description: "Stone Hedge, sometimes called the Stone Hedge, is the seat of House Bracken in the riverlands.<br>"  + '<a href="https://awoiaf.westeros.org/index.php/Stone_Hedge" target="_blank">Learn More</a>' },
+    { name: "Red Fork", coords: [810, 444], description: "Stone Hedge, sometimes called the Stone Hedge, is the seat of House Bracken in the riverlands.<br>"  + '<a href="https://awoiaf.westeros.org/index.php/Stone_Hedge" target="_blank">Learn More</a>' },
+
+    { name: "Stone Hedge", coords: [788, 443], description: "Stone Hedge, sometimes called the Stone Hedge, is the seat of House Bracken in the riverlands.<br>"  + '<a href="https://awoiaf.westeros.org/index.php/Stone_Hedge" target="_blank">Learn More</a>' },
 
     { name: "Riverrun", coords: [782, 410], description: "is the ancestral castle of House Tully, the Lords Paramount of the Trident. It is situated in the western riverlands, at the confluence of the Tumblestone and Red Fork rivers.[2] Riverrun is north of Pinkmaiden and northwest of Acorn Hall. The castle sits along the river road, an easy ride[3] which links Lannisport and the crossroads..<br>"  + '<a href="https://awoiaf.westeros.org/index.php/Riverrun" target="_blank">Learn More</a>' },
 
