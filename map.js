@@ -85,6 +85,8 @@ var pointsOfInterest = [
 
     { name: "Gods Eye Town", coords: [711, 494], description: "is located on the southern shore of the great lake called the Gods Eye in the southern riverlands, where a river flows south. The town's name has not been published.<br>"  + '<a href="https://awoiaf.westeros.org/index.php/Gods_Eye_Town" target="_blank">Learn More</a>' },
 
+    { name: "Trident", coords: [798, 491], description: "The Trident is a major river in the riverlands of the Seven Kingdoms. Made of numerous smaller tributaries, it is one of the largest rivers on the continent of Westeros. It is a confluence of three main branches, the Red Fork, the Green Fork, and the Blue Fork.<br>"  + '<a href="https://awoiaf.westeros.org/index.php/Trident" target="_blank">Learn More</a>' },
+
     { name: "Harrenhal", coords: [765, 495], description: "the largest castle in the Seven Kingdoms, is the seat of House Whent in the riverlands, on the north shore of the Gods Eye. Since the burning of Harrenhal by dragonfire in Aegon's Conquest, however, the castle has become a dark and ruinous place. Harrenhal's holdings are some of the richest in Westeros, claiming vast tracts of green fertile land which reach as far as the hills of House Wode near the crownlands. Harrentown is found near the castle.<br>"  + '<a href="https://awoiaf.westeros.org/index.php/Harrenhal" target="_blank">Learn More</a>' },
 
     { name: "Stone Hedge", coords: [786, 440], description: "Stone Hedge, sometimes called the Stone Hedge, is the seat of House Bracken in the riverlands.<br>"  + '<a href="https://awoiaf.westeros.org/index.php/Stone_Hedge" target="_blank">Learn More</a>' },
