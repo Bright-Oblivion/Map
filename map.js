@@ -68,7 +68,6 @@ var pointsOfInterest = [
     { name: "Rosby", coords: [700, 570], description: "is the seat of House Rosby, northwest of Blackwater Bay in the crownlands. Rosby sits just northeast of King's Landing along the Rosby road, the shortest road between the capital and Duskendale. Lying around the small castle is a village with daub-and-wattle huts, a sept, apple orchards, and fields of barley.[2] Rosby's maester is Melwys<br>"  + '<a href="https://awoiaf.westeros.org/index.php/Rosby" target="_blank">Learn More</a>' },
     
     { name: "Dragonstone", coords: [715, 653], description: "is a castle on the island of the same name at the entrance to Blackwater Bay, below the Dragonmont. It was the original seat of House Targaryen in Westeros, and had been colonized and fortified as the westernmost outpost of the Valyrian Freehold. Shaped from stone to look like dragons, the castle has a dark reputation.<br>"  + '<a href="https://awoiaf.westeros.org/index.php/Dragonstone" target="_blank">Learn More</a>,', isCapital: true, audioFile: 'Music/Dragonstone.mp3'},
-    
 
     { name: "Claw Isle", coords: [760, 677], description: "is the island seat of House Celtigar in the crownlands. It lies a few hours sail north from Dragonstone. The people of Crackclaw Point refer to the island as Crab Isle.<br>"  + '<a href="https://awoiaf.westeros.org/index.php/Claw_Isle" target="_blank">Learn More</a>' },
 
@@ -221,12 +220,7 @@ var pointsOfInterest = [
 
 
 ];
-
-
-
-
-
-
+//End of locations
 
 
 var audioPlayer = document.getElementById('audioPlayer');
@@ -262,7 +256,7 @@ pointsOfInterest.forEach(function(point) {
     }
     var marker = L.marker(point.coords, {icon: markerIcon}).addTo(map);
 
-    marker.bindPopup("<strong><u>" + point.name + "</u></strong><br>" + point.description);
+    marker.bindPopup("<strong><center><u>" + point.name + "</u></center></strong><br>" + point.description);
 
     marker.on('popupopen', function() {
         console.log("Popup opened for:", point.name);
@@ -291,7 +285,7 @@ pointsOfInterest.forEach(function(point) {
 
 
 
-// Search function to locate and zoom into a point of interest
+// Search function to locate and zoom into a points of interest, zoom-out button doesn't work but i can scroll/pinch-to-zoom....hmmm
 function searchLocation(input) {
     input = input.toLowerCase();
     var found = pointsOfInterest.find(poi => poi.name.toLowerCase() === input);
@@ -299,7 +293,7 @@ function searchLocation(input) {
         var customZoom = 2;
         map.setView(found.coords, customZoom);
         
-        // Create and open the popup
+        // Create and open the popup with all the text for the areas
         var popup = L.popup()
             .setLatLng(found.coords)
             .setContent(`<strong>${found.name}</strong><br>${found.description}`)
@@ -335,7 +329,7 @@ document.getElementById('search-input').addEventListener('keydown', function(eve
     }
 });
 
-// Initialises autocomplete but isn't working, idk why x(
+// Initialises autocomplete but it isn't working, idk why x(
 new autoComplete({
     selector: '#search-input',
     minChars: 1,
