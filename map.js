@@ -61,6 +61,8 @@ var capitalIcon = new L.Icon({
 var pointsOfInterest = [
     { name: "Rain House", coords: [502, 675], description: " also called the Rain House, is the seat of House Wylde in the stormlands. It sits in the eastern rainwood along the southern shore of Shipbreaker Bay near the northeastern tip of Cape Wrath.<br>"  + '<a href="https://awoiaf.westeros.org/index.php/Rain_House" target="_blank">Learn More</a>' },
     
+    { name: "Pov", coords: [410, 696], description: "A real Nigga that's Jacked as fuck and doesn't let no faggot mess with his mental state not his weed. Maybe likes Tate a lil too much but unlike that Faggot Tate, Pov is the real top G. Seig Heil <br>"  + '<a href="https://awoiaf.westeros.org/index.php/Rain_House" target="_blank">Learn More</a>' },
+
     { name: "Mistwood", coords: [467, 630], description: "or Mistfall is the seat of House Mertyns in the stormlands. It is located in the southern rainwood in Cape Wrath.<br>"  + '<a href="https://awoiaf.westeros.org/index.php/Mistwood" target="_blank">Learn More</a>' },
     
     { name: "King's Landing", coords: [670, 570], description: "is the capital of the Seven Kingdoms, located in the crownlands on the east coast of Westeros. It is situated along the kingsroad at the mouth of the Blackwater Rush and overlooks Blackwater Bay. King's Landing is the site of the Iron Throne and the Red Keep, which is the seat of the king, Robert I from House Baratheon of King's Landing.<br>"  + '<a href="https://awoiaf.westeros.org/index.php/King%27s_Landing" target="_blank">Learn More</a>', isCapital: true, audioFile: 'Music/The-Kings-Arrival.mp3'},
