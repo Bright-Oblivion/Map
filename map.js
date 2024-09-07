@@ -2,11 +2,11 @@
 var map = L.map('map', {
     minZoom: 0,
     maxZoom: 5,
-    zoomSnap: 1.0,
+    zoomSnap: 0.5,
     center: [0, 0],
     zoom: 1,
     zoomDelta: 0.5,
-    wheelPxPerZoomLevel: 10,
+    wheelPxPerZoomLevel: 10, 
     crs: L.CRS.Simple
 });
 
@@ -164,6 +164,8 @@ var pointsOfInterest = [
     { name: "Stoney Sept", coords: [710, 430], description: "Stoney Sept is a walled town in the southern riverlands. It is located south of Acorn Hall, southeast of Pinkmaiden, and north of the Goldroad. The headwaters of the Blackwater Rush are nearby. A knight named Wilbert is described as having some authority in Stoney Sept, but his House is not mentioned.<br>"  + '<a href="https://awoiaf.westeros.org/index.php/Stoney_Sept" target="_blank">Learn More</a>' },
 
     { name: "Casterly Rock", coords: [705, 290], description: "Casterly Rock, also known as the Casterly Rock or simply the Rock, is a castle and the seat of House Lannister. The capital of the westerlands, it is on the ocean road and overlooks the harbor of Lannisport and the Sunset Sea. Nearby strongholds include Kayce and Feastfires to the west, Sarsfield to the north, and Cornfield and Clegane's Keep to the south.<br>"  + '<a href="https://awoiaf.westeros.org/index.php/Casterly_Rock" target="_blank">Learn More</a>', isCapital: true, audioFile: 'Music/The-Rains-of-Castamere.mp3' },
+
+    { name: "Lannisport", coords: [699, 272], description: "Lannisport is a walled city in the westerlands located less than a mile south of Casterly Rock, the seat of House Lannister. Lannisport is located along the coast of the Sunset Sea where the river road, the gold road, and the ocean road meet. It is one of the major ports of the Seven Kingdoms and is the largest settlement in the westerlands. Lannisport is smaller than King's Landing or Oldtown, but larger than Gulltown or White Harbor.<br>"  + '<a href="https://awoiaf.westeros.org/index.php/Lannisport" target="_blank">Learn More</a>'},
 
     { name: "Last Hearth", coords: [1300, 565], description: "is sometimes called The Last Hearth, is the seat of House Umber in the north. It lies close to the Gift in a forest east of the kingsroad. It is north of the Last River, northeast of Long Lake, and west of the Bay of Seals. With the exception of the castles of the Night's Watch, Last Hearth is the northernmost major castle of the Seven Kingdoms.  <br>"  + '<a href="https://awoiaf.westeros.org/index.php/Last_Hearth" target="_blank">Learn More</a>' },
 
