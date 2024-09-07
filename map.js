@@ -61,7 +61,7 @@ var capitalIcon = new L.Icon({
 var pointsOfInterest = [
     { name: "Rain House", coords: [502, 675], description: " also called the Rain House, is the seat of House Wylde in the stormlands. It sits in the eastern rainwood along the southern shore of Shipbreaker Bay near the northeastern tip of Cape Wrath.<br>"  + '<a href="https://awoiaf.westeros.org/index.php/Rain_House" target="_blank">Learn More</a>' },
 
-    { name: "Pov isles", coords: [410, 696], description: "not to be confused with Epstein island. Pov is a real Nigga that's Jacked as fuck and doesn't let no faggot mess with his mental state nor his weed. Maybe likes Tate a lil too much but unlike that 15 year old molesting Faggot Tate (allegendly), Pov is a real top G with a strong moral-frame work and a heart of Gold, unless it's towards Jews. Seig Heil <br>"  + '<a href="https://m.media-amazon.com/images/I/51TZJ22nDPL._UXNaN_FMjpg_QL85_.jpg" target="_blank">Learn More</a>',audioFile: 'Music/pov.mp3' },
+    { name: "Pov isles", coords: [410, 696], description: "not to be confused with Epstein island. jk <br>"  + '<a href="https://m.media-amazon.com/images/I/51TZJ22nDPL._UXNaN_FMjpg_QL85_.jpg" target="_blank">Learn More</a>',audioFile: 'Music/pov.mp3' },
 
     { name: "Mistwood", coords: [467, 630], description: "or Mistfall is the seat of House Mertyns in the stormlands. It is located in the southern rainwood in Cape Wrath.<br>"  + '<a href="https://awoiaf.westeros.org/index.php/Mistwood" target="_blank">Learn More</a>' },
     
