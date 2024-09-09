@@ -223,6 +223,7 @@ var pointsOfInterest = [
     
 
 
+
 ];
 //End of locations
 
