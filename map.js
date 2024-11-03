@@ -97,6 +97,9 @@ var pointsOfInterest = [
 
     { name: "Gods Eye Town", coords: [711, 494], description: "is located on the southern shore of the great lake called the Gods Eye in the southern riverlands, where a river flows south. The town's name has not been published.<br>"  + '<a href="https://awoiaf.westeros.org/index.php/Gods_Eye_Town" target="_blank">Learn More</a>' },
 
+    { name: "Black Rush", coords: [660, 494], description: "The Blackwater Rush, also known as the Rush or the Blackwater River, but more commonly called the Blackwater, is a river in the southern riverlands, the northern reach, and the crownlands with some headwaters in the westerlands. It is one of the major rivers of the Seven Kingdoms of Westeros. <br>"  + '<a href="https://awoiaf.westeros.org/index.php/Blackwater_Rush" target="_blank">Learn More</a>', isWater: true },
+
+
     { name: "Trident", coords: [798, 491], description: "The Trident is a major river in the riverlands of the Seven Kingdoms. Made of numerous smaller tributaries, it is one of the largest rivers on the continent of Westeros. It is a confluence of three main branches, the Red Fork, the Green Fork, and the Blue Fork.<br>"  + '<a href="https://awoiaf.westeros.org/index.php/Trident" target="_blank">Learn More</a>', isWater: true},
 
     { name: "Harrenhal", coords: [765, 495], description: "the largest castle in the Seven Kingdoms, is the seat of House Whent in the riverlands, on the north shore of the Gods Eye. Since the burning of Harrenhal by dragonfire in Aegon's Conquest, however, the castle has become a dark and ruinous place. Harrenhal's holdings are some of the richest in Westeros, claiming vast tracts of green fertile land which reach as far as the hills of House Wode near the crownlands. Harrentown is found near the castle.<br>"  + '<a href="https://awoiaf.westeros.org/index.php/Harrenhal" target="_blank">Learn More</a>' },
@@ -216,6 +219,8 @@ var pointsOfInterest = [
     { name: "Driftmark", coords: [705, 636], description: "is an island west of Dragonstone in Blackwater Bay. The seat of House Velaryon in the crownlands, it has a long point.[1] The Gullet separates Driftmark from Massey's Hook to the south. <br>"  + '<a href="https://awoiaf.westeros.org/index.php/Driftmark" target="_blank">Learn More</a>' },
 
     { name: "Sharp Point", coords: [680, 647], description: "is the seat of House Bar Emmon in the crownlands. The castle is located along the Gullet at the northern end of Massey's Hook, north of Stonedance.[1] It has a large watchtower upon which a great fire burns atop. <br>"  + '<a href="https://awoiaf.westeros.org/index.php/Sharp_Point" target="_blank">Learn More</a>' },
+
+    { name: "Haystack Hall", coords: [580, 620], description: "is the seat of House Errol in the stormlands. It is located east of the kingsroad, northeast of Bronzegate, and south of the kingswood. <br>"  + '<a href="https://awoiaf.westeros.org/index.php/Haystack_Hall" target="_blank">Learn More</a>' },
     
     
     // Essos
